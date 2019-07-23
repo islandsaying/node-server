@@ -1,8 +1,7 @@
-var http = require('http')
-var path = require('path')
-var fs = require('fs')
-var url = require('url')
-
+var http = require('http') //一个创建服务器的模块
+var fs = require('fs')     //读写模块
+var path = require('path') //可以处理url
+var url = require('url')   //解析url得到一些信息
 
 function staticRoot(staticPath, req, res){
   console.log(staticPath)
